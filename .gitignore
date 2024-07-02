@@ -5,6 +5,9 @@
 # Ignore environment variables
 /config.php
 
+# Ignore SQLite database files
+*.sqlite
+
 # Ignore IDE-specific files
 /.idea/
 /*.sublime-project
