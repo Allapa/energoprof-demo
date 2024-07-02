@@ -14,7 +14,7 @@
 
 Несколько простых шагов:
 
-- склонировать репозиторий: gi clone 
+- склонировать репозиторий: git clone https://github.com/Allapa/energoprof-demo
 - установить библиотеки composer: composer install
 - скопировать папку проекта в папку htdocs своего локального web-сервера (при разработке использовался Xampp)
 - запустить миграцию БД в папке проекта: php database/migrate.php
