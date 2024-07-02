@@ -17,7 +17,7 @@
 - склонировать репозиторий: git clone https://github.com/Allapa/energoprof-demo
 - установить библиотеки composer: composer install
 - скопировать папку проекта в папку htdocs своего локального web-сервера (при разработке использовался Xampp)
-- запустить миграцию БД в папке проекта: php database/migrate.php
-- запустить сидер БД: php database/seeder.php
+- запустить миграцию БД: http://localhost/energoprof-demo/database/migrate.php
+- запустить сидер БД: http://localhost/energoprof-demo/database/seeder.php
 - Вы прекрасны! 
 - Заходите на http://localhost/energoprof-demo/ и авторизауйтесь под тестовыми данными

@@ -1,6 +1,6 @@
 <?php
 require_once '../config.php';
-echo '<pre>';
+
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Faker\Factory as Faker;
 
@@ -47,5 +47,4 @@ for ($j = 0; $j < 30; $j++) {
         'tag_id' => array_rand($tags)
     ]);
 }
-echo '</pre>';
 die("Таблицы наполнены тестовыми данными!");
